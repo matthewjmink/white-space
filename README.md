@@ -1,12 +1,11 @@
-### PUSH
+## PUSH
 *Space around an element*
 ```css
 .push{-direction}{-viewport}{-size}
 .no-push{-direction}{-viewport}
 ```
 
-----------
-### PAD
+## PAD
 *Space between the element's edge and its contents*
 ```css
 .pad{-direction}{-viewport}{-size}
