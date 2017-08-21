@@ -1,0 +1,31 @@
+{
+  "name": "white-space",
+  "version": "1.0.0",
+  "description": "Robust and responsive styles for adding white space to elements. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewjmink/white-space.git"
+  },
+  "keywords": [
+    "SCSS",
+    "CSS"
+  ],
+  "author": "Matt Mink",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/matthewjmink/white-space/issues"
+  },
+  "homepage": "https://github.com/matthewjmink/white-space#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
