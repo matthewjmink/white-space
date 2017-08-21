@@ -1,7 +1,4 @@
-# white-space
-Robust and responsive styles for adding white space to elements.
-
-###PUSH
+### PUSH
 *Space around an element*
 ```css
 .push{-direction}{-viewport}{-size}
@@ -9,7 +6,7 @@ Robust and responsive styles for adding white space to elements.
 ```
 
 ----------
-###PAD
+### PAD
 *Space between the element's edge and its contents*
 ```css
 .pad{-direction}{-viewport}{-size}
@@ -17,60 +14,62 @@ Robust and responsive styles for adding white space to elements.
 ```
 
 ----------
-###DIRECTIONALITY
+### DIRECTIONALITY
 
  - `top`
  - `right`
  - `bottom`
  - `left`
 
-####Directionality rules:
+#### Directionality rules:
  - *If no **DIRECTION** is specified, white-space is added to **all sides***
 
 ----------
-###VIEWPORTS
+### VIEWPORTS
  - `xs`
  - `sm`
  - `md`
  - `lg`
 
-####Viewport rules:
+#### Viewport rules:
  - *If no size is specified, **`xs` is the default***
  - **VIEWPORT** comes before **SIZE**.
  - If **VIEWPORT** is specified, **SIZE is required**.
 
 ----------
-###SIZES
+### SIZES
  - `xs` => 5px
  - `sm` => 10px
  - `md` => 20px
  - `lg` => 40px
  - `xl` => 80px
 
-####Size rules:
+#### Size rules:
  - *If no size is specified, **`md` is the default***
  - If both **DIRECTION** and **SIZE** are included, **DIRECTION must be first**.
  - If **VIEWPORT** is specified, **SIZE is required**.
  - **SIZE** comes after **VIEWPORT**
 
 ----------
-###EXAMPLES
-`.push`
-`.push-sm`
-`.push-right`
-`.push-top-lg`
-`.no-push`
-`.no-push-left`
-`.no-push-sm`
-`.no-push-left-xs`
-`.pad`
-`.pad-xs`
-`.pad-bottom`
-`.pad-left-sm`
-`.no-pad`
-`.no-pad-right`
-`.no-pad-top`
-`.no-pad-bottom-lg`
+### EXAMPLES
+    .push
+    .push-sm
+    .push-right
+    .push-top-lg
+    .no-push
+    .no-push-left
+    .no-push-sm
+    .no-push-left-xs
+    .pad
+    .pad-xs
+    .pad-bottom
+    .pad-left-sm
+    .no-pad
+    .no-pad-right
+    .no-pad-top
+    .no-pad-bottom-lg
+
+Just a silly example:
 
     <div class="push
                 push-bottom-lg
